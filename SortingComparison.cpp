@@ -11,6 +11,9 @@
 
 
 #include "SortingComparison.hpp"
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
 
 int countSelection=0;
 

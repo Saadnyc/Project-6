@@ -12,6 +12,13 @@
 
 #include "SortingComparison.hpp"
 
+int countSelection=0;
+
+int countInsertion=0;
+
+int countMerge=0;
+
+int countQuick=0;
 
 //parameterized constructor allocate values_ with array_size
 SortingComparison::SortingComparison(size_t array_size): SIZE(array_size), values_(new int[SIZE]){}

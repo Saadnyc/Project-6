@@ -574,28 +574,5 @@ cout<<"Invalid choice "<<endl;
 
 }
 
-int main(){
-
-cout<<"For RANDOM element in array"<<endl;
-
-runComparsion(RANDOM);
-
-cout<<"==========================\n"<<endl;
-
-cout<<"For INCREASING element in array"<<endl;
-
-runComparsion(INCREASING);
-
-cout<<"==========================\n"<<endl;
-
-cout<<"For DECREASING element in array"<<endl;
-
-runComparsion(DECREASING);
-
-cout<<"==========================\n"<<endl;
-
-return 0;
-
-}
 
 

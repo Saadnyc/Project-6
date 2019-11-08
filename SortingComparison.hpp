@@ -59,7 +59,7 @@ public:
 
 
    //************* DEFINE runComparison HERE!!!! ***********************//
-
+  void runComparison(data_distribution array_type);
 private:
 
    const size_t SIZE; // the size of values_

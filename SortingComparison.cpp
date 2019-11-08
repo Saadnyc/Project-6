@@ -255,7 +255,7 @@ return countQuick; //******* MODIFY TO RETURN THE NUMBER OF COMPARISONS
 
 void SortingComparison::runComparison(data_distribution array_type){
 
-//calling the class Sorting Comparsions and make object s with size 5
+//calling the class Sorting Comparison and make object s with size 5
   int n=10;
   SortingComparison s(10);
 
@@ -280,13 +280,13 @@ void SortingComparison::runComparison(data_distribution array_type){
 
 //now making sorting of copied array
 
-    cout<<"Selection Sort Comparsions : "<<s.selectionSort(b,n)<<endl;
+    cout<<"Selection Sort Comparison : "<<s.selectionSort(b,n)<<endl;
 
-    cout<<"Insertion Sort Comparsions : "<<s.insertionSort(b,n)<<endl;
+    cout<<"Insertion Sort Comparison : "<<s.insertionSort(b,n)<<endl;
 
-    cout<<"Merge Sort Comparsions : "<<s.mergeSort(b,0,n-1)<<endl;
+    cout<<"Merge Sort Comparison : "<<s.mergeSort(b,0,n-1)<<endl;
 
-    cout<<"Quick Sort Comparsions : "<<s.quickSort(b,0,n-1)<<endl;
+    cout<<"Quick Sort Comparison : "<<s.quickSort(b,0,n-1)<<endl;
 
 }
 
@@ -315,13 +315,13 @@ else if(array_type == INCREASING){
 
 //now making sorting of copied array
 
-  cout<<"Selection Sort Comparsions : "<<s.selectionSort(b,n)<<endl;
+  cout<<"Selection Sort Comparison : "<<s.selectionSort(b,n)<<endl;
 
-  cout<<"Insertion Sort Comparsions : "<<s.insertionSort(b,n)<<endl;
+  cout<<"Insertion Sort Comparison : "<<s.insertionSort(b,n)<<endl;
 
-  cout<<"Merge Sort Comparsions : "<<s.mergeSort(b,0,n-1)<<endl;
+  cout<<"Merge Sort Comparison : "<<s.mergeSort(b,0,n-1)<<endl;
 
-  cout<<"Quick Sort Comparsions : "<<s.quickSort(b,0,n-1)<<endl;
+  cout<<"Quick Sort Comparison : "<<s.quickSort(b,0,n-1)<<endl;
 
 }
 
@@ -351,18 +351,20 @@ else if (array_type == DECREASING){
 
 //now making sorting of copied array
 
-  cout<<"Selection Sort Comparsions : "<<s.selectionSort(b,n)<<endl;
+  cout<<"Selection Sort Comparison : "<<s.selectionSort(b,n)<<endl;
 
-  cout<<"Insertion Sort Comparsions : "<<s.insertionSort(b,n)<<endl;
+  cout<<"Insertion Sort Comparison : "<<s.insertionSort(b,n)<<endl;
 
-  cout<<"Merge Sort Comparsions : "<<s.mergeSort(b,0,n-1)<<endl;
+  cout<<"Merge Sort Comparison : "<<s.mergeSort(b,0,n-1)<<endl;
 
-  cout<<"Quick Sort Comparsions : "<<s.quickSort(b,0,n-1)<<endl;
+  cout<<"Quick Sort Comparison : "<<s.quickSort(b,0,n-1)<<endl;
 
 }
 
 else{
   cout<<"Invalid choice "<<endl;
+  }
 }
 
-}
+
+

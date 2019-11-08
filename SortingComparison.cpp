@@ -253,7 +253,7 @@ return countQuick; //******* MODIFY TO RETURN THE NUMBER OF COMPARISONS
 
   //*************  IMPLEMENT runComparison HERE!!!! ************//
 
-void runComparsion(data_distribution array_type){
+void SortingComparison::runComparison(data_distribution array_type){
 
 //calling the class Sorting Comparsions and make object s with size 5
   int n=10;
